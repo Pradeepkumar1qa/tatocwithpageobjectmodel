@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12273" started-at="2018-06-25T18:39:39Z" finished-at="2018-06-25T18:39:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12273" started-at="2018-06-25T18:39:39Z" finished-at="2018-06-25T18:39:51Z">
+      <class name="test.Test_the_tatoc">
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="5911" started-at="2018-06-25T18:39:39Z" finished-at="2018-06-25T18:39:45Z">
+        </test-method>
+        <test-method status="PASS" signature="is_basic_course_clickable()" name="is_basic_course_clickable" duration-ms="274" started-at="2018-06-25T18:39:45Z" finished-at="2018-06-25T18:39:45Z">
+        </test-method>
+        <test-method status="PASS" signature="is_redbox_leads_to_error_page()" name="is_redbox_leads_to_error_page" duration-ms="279" started-at="2018-06-25T18:39:45Z" depends-on-methods="test.Test_the_tatoc.is_basic_course_clickable" finished-at="2018-06-25T18:39:45Z">
+        </test-method>
+        <test-method status="PASS" signature="check_for_green_box()" name="check_for_green_box" duration-ms="327" started-at="2018-06-25T18:39:45Z" depends-on-methods="test.Test_the_tatoc.is_redbox_leads_to_error_page" finished-at="2018-06-25T18:39:46Z">
+        </test-method>
+        <test-method status="PASS" signature="click_on_unmatched_box_leads_to_errorpage()" name="click_on_unmatched_box_leads_to_errorpage" duration-ms="552" started-at="2018-06-25T18:39:46Z" depends-on-methods="test.Test_the_tatoc.check_for_green_box" finished-at="2018-06-25T18:39:46Z">
+        </test-method>
+        <test-method status="PASS" signature="matchtheboxcolor()" name="matchtheboxcolor" duration-ms="836" started-at="2018-06-25T18:39:46Z" depends-on-methods="test.Test_the_tatoc.click_on_unmatched_box_leads_to_errorpage" finished-at="2018-06-25T18:39:47Z">
+        </test-method>
+        <test-method status="PASS" signature="dragfunctionality()" name="dragfunctionality" duration-ms="287" started-at="2018-06-25T18:39:47Z" depends-on-methods="test.Test_the_tatoc.matchtheboxcolor" finished-at="2018-06-25T18:39:47Z">
+        </test-method>
+        <test-method status="PASS" signature="proceedingwithoulaunching()" name="proceedingwithoulaunching" duration-ms="187" started-at="2018-06-25T18:39:47Z" depends-on-methods="test.Test_the_tatoc.dragfunctionality" finished-at="2018-06-25T18:39:47Z">
+        </test-method>
+        <test-method status="PASS" signature="proceedwithlaunchbutemptyinput()" name="proceedwithlaunchbutemptyinput" duration-ms="1404" started-at="2018-06-25T18:39:47Z" depends-on-methods="test.Test_the_tatoc.proceedingwithoulaunching" finished-at="2018-06-25T18:39:49Z">
+        </test-method>
+        <test-method status="PASS" signature="dopositivetestingonlauncwindow()" name="dopositivetestingonlauncwindow" duration-ms="1570" started-at="2018-06-25T18:39:49Z" depends-on-methods="test.Test_the_tatoc.proceedwithlaunchbutemptyinput" finished-at="2018-06-25T18:39:50Z">
+        </test-method>
+        <test-method status="PASS" signature="do_negative_test_on_cookieseeter_page()" name="do_negative_test_on_cookieseeter_page" duration-ms="325" started-at="2018-06-25T18:39:50Z" depends-on-methods="test.Test_the_tatoc.dopositivetestingonlauncwindow" finished-at="2018-06-25T18:39:51Z">
+        </test-method>
+        <test-method status="PASS" signature="do_positive_test_on_cookiesetter_page()" name="do_positive_test_on_cookiesetter_page" duration-ms="282" started-at="2018-06-25T18:39:51Z" depends-on-methods="test.Test_the_tatoc.do_negative_test_on_cookieseeter_page" finished-at="2018-06-25T18:39:51Z">
+        </test-method>
+        <test-method status="PASS" signature="end()" name="end" is-config="true" duration-ms="0" started-at="2018-06-25T18:39:51Z" finished-at="2018-06-25T18:39:51Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
