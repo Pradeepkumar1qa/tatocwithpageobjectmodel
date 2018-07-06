@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="ASDW0041" name="test.Test_the_tatoc" tests="12" failures="0" timestamp="6 Jul 2018 11:33:10 GMT" time="21.816" errors="0">
+  <testcase name="is_basic_course_clickable" time="0.214" classname="test.Test_the_tatoc"/>
+  <testcase name="is_redbox_leads_to_error_page" time="0.201" classname="test.Test_the_tatoc"/>
+  <testcase name="check_for_green_box" time="0.274" classname="test.Test_the_tatoc"/>
+  <testcase name="click_on_unmatched_box_leads_to_errorpage" time="0.41" classname="test.Test_the_tatoc"/>
+  <testcase name="matchtheboxcolor" time="6.324" classname="test.Test_the_tatoc"/>
+  <testcase name="dragnegativtest" time="5.177" classname="test.Test_the_tatoc"/>
+  <testcase name="dragfunctionality" time="0.29" classname="test.Test_the_tatoc"/>
+  <testcase name="proceedingwithoulaunching" time="0.177" classname="test.Test_the_tatoc"/>
+  <testcase name="proceedwithlaunchbutemptyinput" time="1.354" classname="test.Test_the_tatoc"/>
+  <testcase name="dopositivetestingonlauncwindow" time="1.426" classname="test.Test_the_tatoc"/>
+  <testcase name="do_negative_test_on_cookieseeter_page" time="0.18" classname="test.Test_the_tatoc"/>
+  <testcase name="do_positive_test_on_cookiesetter_page" time="0.276" classname="test.Test_the_tatoc"/>
+</testsuite>

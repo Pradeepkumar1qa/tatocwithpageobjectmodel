@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21816" started-at="2018-07-06T17:02:48Z" finished-at="2018-07-06T17:03:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21816" started-at="2018-07-06T17:02:48Z" finished-at="2018-07-06T17:03:10Z">
+      <class name="test.Test_the_tatoc">
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="5476" started-at="2018-07-06T17:02:48Z" finished-at="2018-07-06T17:02:54Z">
+        </test-method>
+        <test-method status="PASS" signature="is_basic_course_clickable()" name="is_basic_course_clickable" duration-ms="214" started-at="2018-07-06T17:02:54Z" finished-at="2018-07-06T17:02:54Z">
+        </test-method>
+        <test-method status="PASS" signature="is_redbox_leads_to_error_page()" name="is_redbox_leads_to_error_page" duration-ms="201" started-at="2018-07-06T17:02:54Z" depends-on-methods="test.Test_the_tatoc.is_basic_course_clickable" finished-at="2018-07-06T17:02:54Z">
+        </test-method>
+        <test-method status="PASS" signature="check_for_green_box()" name="check_for_green_box" duration-ms="274" started-at="2018-07-06T17:02:54Z" depends-on-methods="test.Test_the_tatoc.is_redbox_leads_to_error_page" finished-at="2018-07-06T17:02:54Z">
+        </test-method>
+        <test-method status="PASS" signature="click_on_unmatched_box_leads_to_errorpage()" name="click_on_unmatched_box_leads_to_errorpage" duration-ms="410" started-at="2018-07-06T17:02:54Z" depends-on-methods="test.Test_the_tatoc.check_for_green_box" finished-at="2018-07-06T17:02:55Z">
+        </test-method>
+        <test-method status="PASS" signature="matchtheboxcolor()" name="matchtheboxcolor" duration-ms="6324" started-at="2018-07-06T17:02:55Z" depends-on-methods="test.Test_the_tatoc.click_on_unmatched_box_leads_to_errorpage" finished-at="2018-07-06T17:03:01Z">
+        </test-method>
+        <test-method status="PASS" signature="dragnegativtest()" name="dragnegativtest" duration-ms="5177" started-at="2018-07-06T17:03:01Z" depends-on-methods="test.Test_the_tatoc.matchtheboxcolor" finished-at="2018-07-06T17:03:06Z">
+        </test-method>
+        <test-method status="PASS" signature="dragfunctionality()" name="dragfunctionality" duration-ms="290" started-at="2018-07-06T17:03:06Z" depends-on-methods="test.Test_the_tatoc.dragnegativtest" finished-at="2018-07-06T17:03:07Z">
+        </test-method>
+        <test-method status="PASS" signature="proceedingwithoulaunching()" name="proceedingwithoulaunching" duration-ms="177" started-at="2018-07-06T17:03:07Z" depends-on-methods="test.Test_the_tatoc.dragfunctionality" finished-at="2018-07-06T17:03:07Z">
+        </test-method>
+        <test-method status="PASS" signature="proceedwithlaunchbutemptyinput()" name="proceedwithlaunchbutemptyinput" duration-ms="1354" started-at="2018-07-06T17:03:07Z" depends-on-methods="test.Test_the_tatoc.proceedingwithoulaunching" finished-at="2018-07-06T17:03:08Z">
+        </test-method>
+        <test-method status="PASS" signature="dopositivetestingonlauncwindow()" name="dopositivetestingonlauncwindow" duration-ms="1426" started-at="2018-07-06T17:03:08Z" depends-on-methods="test.Test_the_tatoc.proceedwithlaunchbutemptyinput" finished-at="2018-07-06T17:03:10Z">
+        </test-method>
+        <test-method status="PASS" signature="do_negative_test_on_cookieseeter_page()" name="do_negative_test_on_cookieseeter_page" duration-ms="180" started-at="2018-07-06T17:03:10Z" depends-on-methods="test.Test_the_tatoc.dopositivetestingonlauncwindow" finished-at="2018-07-06T17:03:10Z">
+        </test-method>
+        <test-method status="PASS" signature="do_positive_test_on_cookiesetter_page()" name="do_positive_test_on_cookiesetter_page" duration-ms="276" started-at="2018-07-06T17:03:10Z" depends-on-methods="test.Test_the_tatoc.do_negative_test_on_cookieseeter_page" finished-at="2018-07-06T17:03:10Z">
+        </test-method>
+        <test-method status="PASS" signature="end()" name="end" is-config="true" duration-ms="0" started-at="2018-07-06T17:03:10Z" finished-at="2018-07-06T17:03:10Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
